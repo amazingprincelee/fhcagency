@@ -22,8 +22,8 @@ function MyCarousel() {
           <img src={slide1} alt='slide-1' />
           <div className="container">
             <div className="carousel-caption text-start">
-              <h1>Empowering Futures, Enriching Lives</h1>
-              <p className="opacity-75">Your Trusted Recruitment Agency for Compassionate
+              <h1 className='text-danger'>Empowering Futures, Enriching Lives</h1>
+              <p className="opacity-75 slide-p-size">Your Trusted Recruitment Agency for Compassionate
                 Support Workers and Dedicated Healthcare Teams, Bringing Specialized Services to the Comfort of
                 Home for Autistic Children</p>
               <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
@@ -34,8 +34,8 @@ function MyCarousel() {
           <img src={slide2} alt='slide-2' />
           <div className="container">
             <div className="carousel-caption">
-              <h1>Faith Health Care Agency Ltd - Nurturing Dreams, Transforming Lives</h1>
-              <p>"24/7 Service for Children with 
+              <h1 className='text-danger'>Faith Health Care Agency Ltd - Nurturing Dreams, Transforming Lives</h1>
+              <p className="opacity-75 slide-p-size" >"24/7 Service for Children with 
 Disabilities, Delivering Personalized Care for Every Need, Every Moment."</p>
               <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
             </div>
@@ -45,8 +45,8 @@ Disabilities, Delivering Personalized Care for Every Need, Every Moment."</p>
           <img src={slide3} alt='slide-3' />
           <div className="container">
             <div className="carousel-caption text-end">
-              <h1>Faith Healthcare Agency.</h1>
-              <p>"Delivers a symphony of wellness, where every service is a testament to our 
+              <h1 className='text-danger'>Faith Healthcare Agency.</h1>
+              <p className="opacity-75 slide-p-size">"Delivers a symphony of wellness, where every service is a testament to our 
 commitment to healing with heart."</p>
               <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
             </div>
@@ -56,8 +56,8 @@ commitment to healing with heart."</p>
           <img src={slide4} alt='slide-4' />
           <div className="container">
             <div className="carousel-caption">
-              <h1>Faith Health Care Staff</h1>
-              <p>Committed, Caring, Expert and Compassionate.</p>
+              <h1 className='text-danger'>Faith Health Care Staff</h1>
+              <p className="opacity-75 slide-p-size">Committed, Caring, Expert and Compassionate.</p>
               <p><a className="btn btn-lg btn-primary" href="#">Custom CTA</a></p>
             </div>
           </div>
@@ -66,8 +66,8 @@ commitment to healing with heart."</p>
           <img src={slide5} alt='slide-5' />
           <div className="container">
             <div className="carousel-caption">
-              <h1>Our Specialty</h1>
-              <p>We specialize in providing top-notch healthcare and nursing professionals for Domiciliary Care, 
+              <h1 className='text-danger'>Our Specialty</h1>
+              <p className="opacity-75 slide-p-size">We specialize in providing top-notch healthcare and nursing professionals for Domiciliary Care, 
 Elderly Care Services, End-Of-Life Care, Physical Disabilities Care, Specialist Services, Children With 
 Special Needs.</p>
               <p><a className="btn btn-lg btn-primary" href="#">Custom CTA</a></p>

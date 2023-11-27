@@ -30,6 +30,12 @@ footer {
   
 }
 
+.slide-p-size {
+  background: #a71930;
+  padding: 10px;
+  
+}
+
 
 .newsletter {
   width: 300px;
@@ -63,9 +69,7 @@ header {
   font-weight: bolder;
 }
 
-.coreValue{
-  border: solid 1px red;
-}
+
 
 .home-about-component {
   background: #232c57;

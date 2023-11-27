@@ -1,6 +1,9 @@
 import React from 'react';
 
 function Footer() {
+   const date = new Date();
+   const year = date.getFullYear()
+
   return (
     <footer className="container-fluid py-5">
       <div className="container p-5 text-center">
@@ -22,15 +25,15 @@ function Footer() {
       <div className="row">
         <div className="col-12 col-md">
           
-          <small className="d-block mb-3  text-white">Faith Health Care Agency Ltd
-            Square Root Business Centre
+          <small className="d-block mb-3  text-white"><b>OFFICE ADDRESS:</b><br/>Faith Health Care Agency Ltd
+            Square Root Business Centre <br/>
             102-116 Windmill Road
-            Croydon
+            Croydon<br/>
             Surrey CR0 2XQ
-            info@fhcagency.co.uk
+            info@fhcagency.co.uk<br/>
             Telephone: 02031373942
             Office Mobile: 07495162171</small>
-            <small className="d-block mb-3 text-body-secondary text-white">© 2017–2023</small>
+            
         </div>
         <div className="col-6 col-md">
           <h5>Features</h5>
@@ -61,6 +64,7 @@ function Footer() {
             <li><a className="link-secondary text-decoration-none text-white" href="#">Terms</a></li>
           </ul>
         </div>
+        <p className=" text-white">copyright© {year}</p>
       </div>
     </footer>
   );

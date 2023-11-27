@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../../images/headerbg.jpeg';
+import aboutImage from '../../images/ourfacility.jpeg';
 
 function OF() {
   return (
