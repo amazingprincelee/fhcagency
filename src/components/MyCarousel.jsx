@@ -1,5 +1,6 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Link } from 'react-router-dom';
 // import { Carousel } from 'react-responsive-carousel';
 import slide1 from "../images/slide1.jpg";
 import slide2 from "../images/slide2.jpg";
@@ -26,7 +27,7 @@ function MyCarousel() {
               <p className="opacity-75 slide-p-size">Your Trusted Recruitment Agency for Compassionate
                 Support Workers and Dedicated Healthcare Teams, Bringing Specialized Services to the Comfort of
                 Home for Autistic Children</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                <p><Link className="btn btn-lg btn-danger" to="/register">Sign up today</Link></p>
             </div>
           </div>
         </div>
@@ -37,7 +38,7 @@ function MyCarousel() {
               <h1>Faith Health Care Agency Ltd - Nurturing Dreams, Transforming Lives</h1>
               <p className="opacity-75 slide-p-size" >"24/7 Service for Children with
                 Disabilities, Delivering Personalized Care for Every Need, Every Moment."</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><Link className="btn btn-lg btn-danger" to="/aboutus">Learn more</Link></p>
             </div>
           </div>
         </div>
@@ -48,7 +49,7 @@ function MyCarousel() {
               <h1>Faith Healthcare Agency.</h1>
               <p className="opacity-75 slide-p-size">"Delivers a symphony of wellness, where every service is a testament to our
                 commitment to healing with heart."</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <p><Link className="btn btn-lg btn-danger" to="/gallery">Browse gallery</Link></p>
             </div>
           </div>
         </div>
@@ -58,7 +59,6 @@ function MyCarousel() {
             <div className="carousel-caption">
               <h1>Faith Health Care Staff</h1>
               <p className="opacity-75 slide-p-size">Committed, Caring, Expert and Compassionate.</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Custom CTA</a></p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ function MyCarousel() {
               <p className="opacity-75 slide-p-size">We specialize in providing top-notch healthcare and nursing professionals for Domiciliary Care,
                 Elderly Care Services, End-Of-Life Care, Physical Disabilities Care, Specialist Services, Children With
                 Special Needs.</p>
-              <p><a className="btn btn-lg btn-primary" href="#">Custom CTA</a></p>
+              
             </div>
           </div>
         </div>
