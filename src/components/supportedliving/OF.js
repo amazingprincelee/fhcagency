@@ -3,7 +3,7 @@ import aboutImage from '../../images/ourfacility.jpeg';
 
 function OF() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 justina'>
       <header>
         <h1 className='page-title'>Our Facilites</h1>
       </header>

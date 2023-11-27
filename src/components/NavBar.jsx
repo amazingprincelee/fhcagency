@@ -97,7 +97,7 @@ function NavBar() {
                 aria-expanded="false"
                 style={{ fontSize: "16px", margin: "10px" }}
               >
-                Supported Liviing
+                Supported Living
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 {/* 11 links spread into 4 columns */}

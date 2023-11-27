@@ -3,7 +3,7 @@ import aboutImage from '../../images/headerbg.jpeg';
 
 function ECS() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 justina'>
       <header>
         <h1 className='page-title'>Elderly Care Services</h1>
       </header>

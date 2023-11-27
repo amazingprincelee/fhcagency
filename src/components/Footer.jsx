@@ -29,10 +29,10 @@ function Footer() {
             Square Root Business Centre <br/>
             102-116 Windmill Road
             Croydon<br/>
-            Surrey CR0 2XQ
+            Surrey CR0 2XQ<br/>
             info@fhcagency.co.uk<br/>
             Telephone: 02031373942
-            Office Mobile: 07495162171</small>
+            Office Mobile: <br/> 07495162171</small>
             
         </div>
         <div className="col-6 col-md">

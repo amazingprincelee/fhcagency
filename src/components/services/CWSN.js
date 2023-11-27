@@ -3,7 +3,7 @@ import aboutImage from '../../images/childrenwithspecial.jpeg';
 
 function CWSN() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 justina'>
       <header>
         <h1 className='page-title'>Children with Special Needs</h1>
       </header>

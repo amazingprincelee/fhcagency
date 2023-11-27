@@ -30,6 +30,7 @@ import OP from "./components/supportedliving/OP";
 import OWP from "./components/supportedliving/OWP";
 import WCU from "./components/supportedliving/WCU";
 import HomeAbout from "./components/HomeAbout";
+import CDUMHA from "./components/services/CDUMHA";
 
 
 
@@ -119,6 +120,9 @@ function App() {
         </Route>
         <Route path="/WCU">
          <WCU />
+        </Route>
+        <Route path="/CDUMHA">
+         <CDUMHA />
         </Route>
       </Switch>
       <Footer />

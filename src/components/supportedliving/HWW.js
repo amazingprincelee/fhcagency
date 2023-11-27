@@ -3,7 +3,7 @@ import aboutImage from '../../images/headerbg.jpeg';
 
 function HWW() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 justina'>
       <header>
         <h1 className='page-title'>How We Work</h1>
       </header>

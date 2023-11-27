@@ -3,7 +3,7 @@ import aboutImage from '../../images/headerbg.jpeg';
 
 function SS() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 justina'>
       <header>
         <h1 className='page-title'>SPECIALIST SERVICES</h1>
       </header>

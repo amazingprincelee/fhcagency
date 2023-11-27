@@ -3,7 +3,7 @@ import CCBSImage from '../../images/headerbg.jpeg';
 
 function CCBS() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 justina'>
       <header>
         <h1 className='page-title'>CHILDREN WITH CHALLENGING BEHAVIOUR SERVICES</h1>
       </header>

@@ -3,7 +3,7 @@ import cdumhaImage from '../../images/headerbg.jpeg';
 
 function CDUMHA() {
   return (
-    <div className='mb-5'>
+    <div className='mb-5 justina'>
       <header>
         <h1 className='page-title'>CHILDREN WITH DETENTION UNDER MENTAL HEALTH ACT SERVICES</h1>
       </header>
