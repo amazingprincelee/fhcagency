@@ -3,22 +3,32 @@ import aboutImage from '../../images/headerbg.jpeg';
 
 function OF() {
   return (
-    <div claOFName='mb-5'>
+    <div className='mb-5'>
       <header>
-        <h1 claOFName='page-title'>SPECIALIST SERVICES</h1>
+        <h1 className='page-title'>Our Facilites</h1>
       </header>
 
-      <div claOFName='container'>
-        <div claOFName='row'>
-          <div claOFName='col-lg-6'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-6'>
+            <h1>Our Facilites</h1>
+            <p>Faith Home Care accommodation is a welcoming, friendly and comfortable place where residents can add their own personal touch. You will find it equipped with all you need to settle in and enjoy living as independently as possible.</p>
+            <h1>KEY FEATURES INCLUDE:</h1>
+            <p>• Central heating throughout
+• Modern, fully fitted and equipped kitchens
+• All the modern convenient appliances you would expect, like washing machine, dryer, microwave, etc.
+• Fully alarmed and secured entrances and exits
+• Friendly care staff on site 24 hours, seven day a week
+• Assisted bathroom, so you feel safe
+• Lounge and dining room
+• Landscaped garden where you can relax and talk with other residents, staff and visitors
+• Sensory room
+• Wi-Fi internet connection</p>
             
-            <p>We also offer specialist services to clients who suffer from conditions including multiple sclerosis, severe mental health, alcohol and substance misuse, sensory impairment, HIV and AIDS and acquired brain injury. We will work to the specific needs and desired outcomes and wishes of the client and their family members to help our clients live fulfilling lives and remain independent in their own homes.</p>
-            <p>Our Care Managers will ensure the support staff who provide the care are properly trained to deal with the specialist and unique needs of each and every client, allowing us to provide a high level of care and support that can be relied upon. Please don't hesitate to contact your local office to discuOF your care needs today.</p>
-            
-            <img src={aboutImage} alt='about' claOFName='img-fluid mt-3' />
+            <img src={aboutImage} alt='about' className='img-fluid mt-3' />
           </div>
 
-          <div claOFName='col-lg-6'>
+          <div className='col-lg-6'>
             
           </div>
         </div>
@@ -27,4 +37,4 @@ function OF() {
   );
 }
 
-export default OF;
+export default OF

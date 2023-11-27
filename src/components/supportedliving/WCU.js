@@ -3,22 +3,34 @@ import aboutImage from '../../images/headerbg.jpeg';
 
 function WCU() {
   return (
-    <div claWCUName='mb-5'>
+    <div className='mb-5 justina'>
       <header>
-        <h1 claWCUName='page-title'>SPECIALIST SERVICEdff</h1>
+        <h1 className='page-title'>Why Choose Us</h1>
       </header>
 
-      <div claWCUName='container'>
-        <div claWCUName='row'>
-          <div claWCUName='col-lg-6'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-6'>
             
-            <p>We also offer specialist services to clients who suffer from conditions including multiple sclerosis, severe mental health, alcohol and substance misuse, sensory impairment, HIV and AIDS and acquired brain injury. We will work to the specific needs and desired outcomes and wishes of the client and their family members to help our clients live fulfilling lives and remain independent in their own homes.</p>
-            <p>Our Care Managers will ensure the support staff who provide the care are properly trained to deal with the specialist and unique needs of each and every client, allowing us to provide a high level of care and support that can be relied upon. Please don't hesitate to contact your local office to discuWCU your care needs today.</p>
+            <p>Our care provision endorses a holistic approach which is sensitive to the needs of every resident and encompasses the following essential aspects:</p>
+            <ul>
+              <li>Privacy</li>
+              <li>Dignity</li>
+              <li>Independence</li>
+              <li>Choice</li>
+              <li>Rights</li>
+            </ul>
+            <h3>RISK MANAGEMENT</h3>
+            <p>Each person will have an individual risk assessment. Faith Home Care will strive to provide the best opportunities and choice within this framework - the freedom to try different activities and experiences to help them achieve their full potential.</p>
+            <h3>SUPPORTING BEHAVIOURAL NEEDS</h3>
+            <p>We will work existing management for strategies and care plans for behavioral needs, which are regularly reviewed. Staff will suppport each person to live their life in the way they wish, enabling access to the community and safety managing any challenging behaviour they may have. We will seek professional help as and when required.</p>
+            <h3>DECISION MAKING</h3>
+            <p>Our key aim is to support residents to make informed decisions and choices that enable them to take control of their lives and progress towards maximum independence. An approach that includes supporting residents to take an active part in the way their home is run.</p>
             
-            <img src={aboutImage} alt='about' claWCUName='img-fluid mt-3' />
+            <img src={aboutImage} alt='about' className='img-fluid mt-3' />
           </div>
 
-          <div claWCUName='col-lg-6'>
+          <div className='col-lg-6'>
             
           </div>
         </div>

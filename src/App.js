@@ -29,6 +29,7 @@ import OF from "./components/supportedliving/OF";
 import OP from "./components/supportedliving/OP";
 import OWP from "./components/supportedliving/OWP";
 import WCU from "./components/supportedliving/WCU";
+import HomeAbout from "./components/HomeAbout";
 
 
 
@@ -49,6 +50,7 @@ function App() {
            <MyCarousel />
            <CoreValue />
            <Cards />
+           <HomeAbout />
            <Slogan />
           </div>
         </Route>

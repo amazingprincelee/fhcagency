@@ -53,7 +53,7 @@ function NavBar() {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-light"
-                href="#"
+                
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -90,7 +90,7 @@ function NavBar() {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-light"
-                href="#"
+                
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -148,9 +148,7 @@ function NavBar() {
               </Link>
             </li>
           </ul>
-          <a href="https://medium.com/@KARMAERC/chapter-1-the-wicked-and-the-damned-183133bbd4bc" className="social-link"></a>
-          <a href="https://t.me/karma_erc20" className="social-link"></a>
-          <a href="https://twitter.com/Karma_Erc20" className="social-link"></a>
+          
         </div>
       </div>
     </nav>

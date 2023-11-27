@@ -3,22 +3,47 @@ import aboutImage from '../../images/headerbg.jpeg';
 
 function OP() {
   return (
-    <div claOPName='mb-5'>
+    <div className='mb-5 justina'>
       <header>
-        <h1 claOPName='page-title'>OP</h1>
+        <h1 className='page-title'>Our Priorities</h1>
       </header>
 
-      <div claOPName='container'>
-        <div claOPName='row'>
-          <div claOPName='col-lg-6'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-6'>
+            <h1>YOUR WELLNESS IS OUR TOP PRIORITY</h1>
+            <p>We support residents to gain and maintain their independence. Growth in confidence is gained through access to stimulating activities. Experiencing meaningful contribution to their personal development and sense of achievement. At the same time, we recognize and respect that each individual has a right to progress at their own pace and in a way that is most meaningful to them.</p>
+            <h1>LIFE SKILLS PROGRAMME</h1>
+            <ul>
+              <li>Cooking & meals preparation</li>
+              <li>Activities planning</li>
+              <li>Household tasks</li>
+              <li>Time management</li>
+              <li> Road safety</li>
+              <li>Shopping</li>
+            </ul>
+            <h1>EDUCATION</h1>
+            <ul>
+              <li>Access to libraries</li>
+              <li>Activities planning</li>
+              <li>Access to local gym</li>
+              <li>Walking & trekking groups</li>
+              <li>Cycling group</li>
+              <li>Working in the community</li>
+            </ul>
+            <h1>Community</h1>
+            <ul>
+              <li>Working with local colleges</li>
+              <li>Budget and financial planning</li>
+              <li> Drama</li>
+              <li>Healthy lifestyle</li>
+              <li>Art & Craft classes</li>
+            </ul>
             
-            <p>We also offer specialist services to clients who suffer from conditions including multiple sclerosis, severe mental health, alcohol and substance misuse, sensory impairment, HIV and AIDS and acquired brain injury. We will work to the specific needs and desired outcomes and wishes of the client and their family members to help our clients live fulfilling lives and remain independent in their own homes.</p>
-            <p>Our Care Managers will ensure the support staff who provide the care are properly trained to deal with the specialist and unique needs of each and every client, allowing us to provide a high level of care and support that can be relied upon. Please don't hesitate to contact your local office to discuOP your care needs today.</p>
-            
-            <img src={aboutImage} alt='about' claOPName='img-fluid mt-3' />
+            <img src={aboutImage} alt='about' className='img-fluid mt-3' />
           </div>
 
-          <div claOPName='col-lg-6'>
+          <div className='col-lg-6'>
             
           </div>
         </div>

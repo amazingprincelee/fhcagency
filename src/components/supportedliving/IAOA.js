@@ -3,22 +3,36 @@ import aboutImage from '../../images/headerbg.jpeg';
 
 function IAOA() {
   return (
-    <div claIAOAName='mb-5'>
+    <div className='mb-5'>
       <header>
-        <h1 claIAOAName='page-title'>SPECIALIST SERVICES</h1>
+        <h1 className='page-title'>Indoor and Outdoor Activities</h1>
       </header>
 
-      <div claIAOAName='container'>
-        <div claIAOAName='row'>
-          <div claIAOAName='col-lg-6'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-6'>
+ <h1>Indoor and Outdoor Activities</h1>         
+At Faith Home Care, residents can enjoy a wide range of indoor and outdoor activities, such as:
+
+• Painting, art and crafts
+• Cooking and baking
+• Music therapy
+• Cinema
+• Shopping
+• Park and farm visits
+• Seaside trips
+• Gardening
+• Horse riding
+• Swimming
+• Cycling
+• Dine out
+• Meeting the cultural and religious needs
+• Activities of own choice
             
-            <p>We also offer specialist services to clients who suffer from conditions including multiple sclerosis, severe mental health, alcohol and substance misuse, sensory impairment, HIV and AIDS and acquired brain injury. We will work to the specific needs and desired outcomes and wishes of the client and their family members to help our clients live fulfilling lives and remain independent in their own homes.</p>
-            <p>Our Care Managers will ensure the support staff who provide the care are properly trained to deal with the specialist and unique needs of each and every client, allowing us to provide a high level of care and support that can be relied upon. Please don't hesitate to contact your local office to discuIAOA your care needs today.</p>
-            
-            <img src={aboutImage} alt='about' claIAOAName='img-fluid mt-3' />
+            <img src={aboutImage} alt='about' className='img-fluid mt-3' />
           </div>
 
-          <div claIAOAName='col-lg-6'>
+          <div className='col-lg-6'>
             
           </div>
         </div>

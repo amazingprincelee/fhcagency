@@ -5,6 +5,32 @@ footer {
   color: white
 }
 
+.website-red{
+  background: #a71930;
+
+}
+.website-red{
+  background: #a71930;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  box-shadow: black 3px 3px 3px;
+}
+
+.website-blue{
+  background: #232c57;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  box-shadow: black 3px 3px 3px;
+  
+}
+
+
 .newsletter {
   width: 300px;
   border-radius: 10px;
@@ -29,10 +55,29 @@ header {
 
 }
 
+.justina {
+  text-align: justify;
+}
+
 .bold {
   font-weight: bolder;
 }
 
 .coreValue{
   border: solid 1px red;
+}
+
+.home-about-component {
+  background: #232c57;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.home-about-photo{
+  background-image: url("/src/images/homeabout.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
 }

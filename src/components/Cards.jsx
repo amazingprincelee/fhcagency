@@ -14,8 +14,8 @@ function Cards() {
                         </div>
                     </div>
 
-                    <div className="col">
-                        <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div className="col ">
+                        <div className="card card-cover h-100 overflow-hidden text-bg-danger rounded-4 shadow-lg">
                             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                                 <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">OUR MISSION</h3>
                                 <p className='text-center'>Our mission is to deliver a tailored care experience, which places our service users at the centre of everything that we do and providing them with quality support, which maximizes their life potential whilst allowing them to live an independent and dignified life.</p>
