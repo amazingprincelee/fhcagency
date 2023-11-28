@@ -17,10 +17,10 @@ function Register() {
 
     try {
       await emailjs.send(
-        'service_your_service_id',
-        'template_your_template_id',
+        'service_w6mm8ko',
+        'template_k8pogbf',
         templateParams,
-        'user_your_user_id'
+        'princeleepraise@gmail.com'
       );
 
       alert('Form submitted successfully!');
