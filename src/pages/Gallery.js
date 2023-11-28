@@ -26,7 +26,7 @@ const Gallery = () => {
         {galleryImages.map((imageUrl, index) => (
           <div key={index} className="col-md-4 mb-4">
             <div className="card">
-              <img src={imageUrl} className="card-img-top" alt={`Image ${index + 1}`} />
+              <img src={imageUrl} className="card-img-top" alt={`gallary ${index + 1}`} />
               <div className="card-body">
                 <h5 className="card-title">Image {index + 1}</h5>
                 <Link to={`/gallery/${index}`} className="btn btn-danger">

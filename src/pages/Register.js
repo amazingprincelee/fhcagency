@@ -59,7 +59,7 @@ function Register() {
           </label>
         </div>
         <div className="mb-3">
-          <input type="submit" className="btn btn-danger" value="Submit" />
+          <input type="submit" className="btn btn-danger" value="Submit" onClick={handleSubmit} />
         </div>
       </form>
     </div>
