@@ -66,30 +66,30 @@ function Footer() {
         <div className="col-6 col-md">
           <h5>Features</h5>
           <ul className="list-unstyled text-small">
-            <li><a className="link-secondary text-decoration-none text-white">Cool stuff</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Random feature</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Team feature</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Stuff for developers</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Another one</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Last time</a></li>
+            <li>Cool stuff</li>
+            <li>Random feature</li>
+            <li>Team feature</li>
+            <li>Stuff for developers</li>
+            <li>Another one</li>
+            <li>Last time</li>
           </ul>
         </div>
         <div className="col-6 col-md">
           <h5>Resources</h5>
           <ul className="list-unstyled text-small">
-            <li><a className="link-secondary text-decoration-none text-white">Resource name</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Resource</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Another resource</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Final resource</a></li>
+            <li>Resource name</li>
+            <li>Resource</li>
+            <li>Another resource</li>
+            <li>Final resource</li>
           </ul>
         </div>
         <div className="col-6 col-md">
           <h5>About</h5>
           <ul className="list-unstyled text-small">
-            <li><a className="link-secondary text-decoration-none text-white">Team</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Locations</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Privacy</a></li>
-            <li><a className="link-secondary text-decoration-none text-white">Terms</a></li>
+            <li>Team</li>
+            <li>Locations</li>
+            <li>Privacy</li>
+            <li>Terms</li>
           </ul>
         </div>
         <p className=" text-white">copyright© {year}</p>
