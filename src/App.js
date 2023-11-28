@@ -31,6 +31,7 @@ import OWP from "./components/supportedliving/OWP";
 import WCU from "./components/supportedliving/WCU";
 import HomeAbout from "./components/HomeAbout";
 import CDUMHA from "./components/services/CDUMHA";
+import Gallery from "./pages/Gallery";
 
 
 
@@ -72,6 +73,9 @@ function App() {
         </Route>
         <Route path="/contactus">
           <ContactUs />
+        </Route>
+        <Route path="/gallery">
+          <Gallery />
         </Route>
         <Route path="/CWSN">
           <CWSN />

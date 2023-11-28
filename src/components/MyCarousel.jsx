@@ -49,7 +49,7 @@ function MyCarousel() {
               <h1>Faith Healthcare Agency.</h1>
               <p className="opacity-75 slide-p-size">"Delivers a symphony of wellness, where every service is a testament to our
                 commitment to healing with heart."</p>
-                <p><Link className="btn btn-lg btn-danger" to="/gallery">Browse gallery</Link></p>
+                <p><Link className="btn btn-lg btn-danger" to="/register">Sign up today</Link></p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ function MyCarousel() {
               <p className="opacity-75 slide-p-size">We specialize in providing top-notch healthcare and nursing professionals for Domiciliary Care,
                 Elderly Care Services, End-Of-Life Care, Physical Disabilities Care, Specialist Services, Children With
                 Special Needs.</p>
-              
+                <p><Link className="btn btn-lg btn-danger" to="/gallery">Browse gallery</Link></p>
             </div>
           </div>
         </div>

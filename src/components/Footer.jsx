@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 function Footer() {
-   const date = new Date();
-   const year = date.getFullYear()
+  const date = new Date();
+  const year = date.getFullYear();
+
+  const [email, setEmail] = useState('');
+
+  const handleNewsletterSubmit = async (e) => {
+    e.preventDefault();
+
+    // Use your EmailJS service, template, and user IDs
+    const serviceId = 'your_emailjs_service_id';
+    const templateId = 'your_newsletter_template_id';
+    const userId = 'your_emailjs_user_id';
+
+    try {
+      await emailjs.send(serviceId, templateId, { email }, userId);
+
+      alert('Newsletter subscription successful!');
+      setEmail('');
+    } catch (error) {
+      console.error('Error subscribing to newsletter:', error);
+      alert('Failed to subscribe to the newsletter. Please try again.');
+    }
+  };
 
   return (
     <footer className="container-fluid py-5">
@@ -11,12 +33,18 @@ function Footer() {
         <h4>Sign Up For Our Newsletter</h4>
         <p>Faith Health Care Agency specializes in providing temporary, contract and permanent staff to both the public and private sectors across London.</p>
 
-        <form className="mb-5">
-          <div className="input-group">
-            <input type="text" className="form-control newsletter" placeholder="Enter email to receive updates" />
-            <button className="btn btn-primary">Send</button>
-          </div>
-        </form>
+        <form className="mb-5" onSubmit={handleNewsletterSubmit}>
+            <div className="input-group">
+              <input
+                type="text"
+                className="form-control newsletter"
+                placeholder="Enter email to receive updates"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <button className="btn btn-primary" type="submit">Send</button>
+            </div>
+          </form>
       </div>
     </div>
 

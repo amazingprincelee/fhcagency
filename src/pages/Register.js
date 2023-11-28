@@ -1,6 +1,34 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 function Register() {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const templateParams = {
+      fname: e.target.fname.value,
+      lname: e.target.lname.value,
+      email: e.target.email.value,
+      number: e.target.number.value,
+      applying: e.target.applying.value,
+      available: e.target.available.value,
+      cv: e.target.cv.files[0],
+    };
+
+    try {
+      await emailjs.send(
+        'service_your_service_id',
+        'template_your_template_id',
+        templateParams,
+        'user_your_user_id'
+      );
+
+      alert('Form submitted successfully!');
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert('Failed to submit form. Please try again.');
+    }
+  };
   return (
     <div className="container d-flex align-items-center justify-content-center" style={{ height: '100vh' }}>
     
