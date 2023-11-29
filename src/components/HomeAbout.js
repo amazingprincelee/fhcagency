@@ -1,5 +1,5 @@
 import React from 'react';
-import homeAboutImg from "../images/homeabout.jpeg"
+
 
 function HomeAbout() {
   return (

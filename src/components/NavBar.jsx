@@ -53,7 +53,7 @@ function NavBar() {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-light"
-                
+                href="/#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -90,7 +90,7 @@ function NavBar() {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-light"
-                
+                href="/#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -130,10 +130,9 @@ function NavBar() {
             <li className="nav-item">
             <a
                 href="http://fhcagency.co.uk/register.php "
-                target="blank"
+                alt="register"
                 className="nav-link text-light"
                 style={{ fontSize: "16px", margin: "10px" }}
-                onClick={handleLinkClick} 
               >
                 Register
               </a>
@@ -141,10 +140,9 @@ function NavBar() {
             <li className="nav-item">
             <a
                 href="http://fhcagency.co.uk/mail.php"
-                target="blank"
+                alt="contact us"
                 className="nav-link text-light"
                 style={{ fontSize: "16px", margin: "10px" }}
-                onClick={handleLinkClick} 
               >
                 Contact us
               </a>
