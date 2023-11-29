@@ -128,24 +128,26 @@ function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/register"
+            <a
+                href="http://fhcagency.co.uk/register.php "
+                target="blank"
                 className="nav-link text-light"
                 style={{ fontSize: "16px", margin: "10px" }}
                 onClick={handleLinkClick} 
               >
                 Register
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/contactus"
+            <a
+                href="http://fhcagency.co.uk/mail.php"
+                target="blank"
                 className="nav-link text-light"
                 style={{ fontSize: "16px", margin: "10px" }}
                 onClick={handleLinkClick} 
               >
-                Contact Us
-              </Link>
+                Contact us
+              </a>
             </li>
           </ul>
           
