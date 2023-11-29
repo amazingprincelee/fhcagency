@@ -68,9 +68,6 @@ function App() {
         <Route path="/CQC">
           <CQC />
         </Route>
-        <Route path="/Register">
-          <Register />
-        </Route>
         <Route path="/contactus">
           <ContactUs />
         </Route>
