@@ -5,7 +5,6 @@ import NavBar from "./components/NavBar";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import CQC from "./pages/CQC";
-import Register from "./pages/Register";
 import SupportedLiviing from "./pages/SupportedLiviing";
 import Services from "./pages/Services";
 import MyCarousel from "./components/MyCarousel";
